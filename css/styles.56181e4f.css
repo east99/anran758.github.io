@@ -1,0 +1,92 @@
+/*! Copyright (c) 2020-present anran758 */
+.pages-Etrance-index__introduction {
+  margin: 0;
+  color: #fff;
+  font-size: 14px;
+  line-height: 1.8em;
+  letter-spacing: 0.1em;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  text-align: center;
+  background-color: #13316d;
+  background-size: 100% auto;
+  background-attachment: fixed;
+  background-position: 50% 50%;
+}
+
+@media screen and (min-width: 769px) {
+  .pages-Etrance-index__introduction {
+    background-color: #213e78;
+    background-image: url(/img/bg_pc.68cc9533);
+    background-size: 50% auto;
+  }
+}
+
+.pages-Etrance-index__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.pages-Etrance-index__card {
+  margin-top: -10em;
+}
+
+.pages-Etrance-index__name {
+  font-size: 2em;
+}
+
+.pages-Etrance-index__desc {
+  font-size: 0.8em;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.pages-Etrance-index__nav {
+  display: flex;
+  font-size: 1.2em;
+  line-height: 1;
+  margin-top: 16px;
+  color: #40a9ff;
+}
+
+.pages-Etrance-index__navItem {
+  position: relative;
+  padding: 0 16px;
+}
+
+.pages-Etrance-index__navItem + .pages-Etrance-index__navItem {
+  border-left: 2px solid #fff;
+}
+
+html {
+  font-size: 14px;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+a,
+a:link,
+a:link:active,
+a:visited:active,
+a:visited,
+a:active {
+  color: unset;
+  text-decoration: unset;
+}
+
+li {
+  display: block;
+}
+
+ul {
+  margin: unset;
+  padding: unset;
+}
+
